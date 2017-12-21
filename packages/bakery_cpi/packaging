@@ -4,4 +4,4 @@ source /var/vcap/packages/golang-1.8-linux/bosh/compile.env
 mkdir ../src && cp -a * ../src/ && mv ../src ./src
 mkdir $BOSH_INSTALL_TARGET/bin
 
-go build -o $BOSH_INSTALL_TARGET/bin/cpi bakery_cpi/*.go
+go build -o $BOSH_INSTALL_TARGET/bin/cpi src/github.com/vchrisr/bakery_cpi/*.go
