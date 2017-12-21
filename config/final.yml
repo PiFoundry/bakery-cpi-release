@@ -1,0 +1,8 @@
+---
+final_name: bosh-bakery-cpi
+blobstore:
+  provider: s3
+  options:
+    region: eu-central-1
+    endpoint: https://s3.eu-central-1.amazonaws.com
+    bucket_name: bosh-bakery-cpi

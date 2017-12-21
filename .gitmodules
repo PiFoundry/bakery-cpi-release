@@ -1,0 +1,3 @@
+[submodule "src/bakery_cpi"]
+	path = src/bakery_cpi
+	url = https://github.com/vChrisR/bosh-bakery-cpi
