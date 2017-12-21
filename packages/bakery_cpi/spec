@@ -1,6 +1,8 @@
 ---
 name: bakery_cpi
 
-dependencies: []
+dependencies:
+- golang-1.8-linux
 
-files: []
+files:
+  - "**/*.go"

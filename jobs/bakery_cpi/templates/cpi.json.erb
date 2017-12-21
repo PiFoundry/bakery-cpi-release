@@ -1,0 +1,12 @@
+{
+  "Blobstore": {
+    "provider": "dav",
+    "Options": {
+      "endpoint": "http://<%= p('bloblstore.address') %>:<%= p('blobstore.port') %>",
+			"password": "<% p('blobstore.agent.password') %>",
+			"user": "<% p('blobstore.agent.user') %>",
+    }
+  },
+  "Mbus": "<% p('agent.mbus') %>",
+  "NTP": <% p('ntp') %>
+}
