@@ -1,12 +1,12 @@
 {
   "Blobstore": {
-    "provider": "dav",
+    "provider": "<%= p('blobstore.provider')",
     "Options": {
       "endpoint": "http://<%= p('blobstore.address') %>:<%= p('blobstore.port') %>",
-			"password": "<% p('blobstore.agent.password') %>",
-			"user": "<% p('blobstore.agent.user') %>",
+			"password": "<%= p('blobstore.agent.password') %>",
+			"user": "<%= p('blobstore.agent.user') %>"
     }
   },
-  "Mbus": "<% p('agent.mbus') %>",
-  "NTP": <% p('ntp') %>
+  "Mbus": "<%= p('agent.mbus') %>",
+  "NTP": <%= p('ntp') %>
 }
