@@ -1,12 +1,12 @@
-[submodule "src/bakery_cpi"]
-	path = src/bakery_cpi
-	url = https://github.com/vChrisR/bosh-bakery-cpi
-[submodule "src/github.com/bosh-cpi-go"]
-	path = src/github.com/bosh-cpi-go
-	url = https://github.com/cppforlife/bosh-cpi-go.git
-[submodule "src/github.com/bakery-client"]
-	path = src/github.com/bakery-client
+[submodule "src/github.com/vchrisr/bosh-bakery-cpi"]
+	path = src/github.com/vchrisr/bosh-bakery-cpi
+	url = https://github.com/vChrisR/bosh-bakery-cpi.git
+[submodule "src/github.com/vchrisr/bakery-client"]
+	path = src/github.com/vchrisr/bakery-client
 	url = https://github.com/vChrisR/bakery-client.git
-[submodule "src/github.com/cloudfoundry/boshutils"]
-	path = src/github.com/cloudfoundry/boshutils
+[submodule "src/github.com/cppforlife/bosh-cpi-go"]
+	path = src/github.com/cppforlife/bosh-cpi-go
+	url = https://github.com/cppforlife/bosh-cpi-go.git
+[submodule "src/github.com/cloudfoundry/bosh-utils"]
+	path = src/github.com/cloudfoundry/bosh-utils
 	url = https://github.com/cloudfoundry/bosh-utils.git

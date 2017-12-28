@@ -1,0 +1,5 @@
+#!/bin/bash
+
+BOSH_PACKAGES_DIR=${BOSH_PACKAGES_DIR:-/var/vcap/packages}
+
+exec $BOSH_PACKAGES_DIR/bakery_cpi/bin/cpi

@@ -3,6 +3,7 @@ name: bakery_cpi
 
 templates:
   cpi.json.erb: config/cpi.json
+  cpi.erb: bin/cpi
 
 packages:
   - bakery_cpi
